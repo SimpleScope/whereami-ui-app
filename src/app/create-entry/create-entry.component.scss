@@ -1,0 +1,19 @@
+mat-card {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+mat-form-field {
+  flex: 5;
+  width: 100%;
+  & textarea {
+    height: 11rem;
+    resize: none;
+  }
+}
+mat-card-actions {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
